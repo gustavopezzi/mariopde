@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
     $('canvas').focus(function() {
-        $('#start-button').fadeOut('fast');
         var sketch = Processing.getInstanceById('mario-canvas');
         if (sketch) {
             if (sketch.loop) {
